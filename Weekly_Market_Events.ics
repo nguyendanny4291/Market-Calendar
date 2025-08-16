@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Weekly Market Events//EN
+X-WR-CALNAME:Weekly Market Events (Aug 18–24, 2025)
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:abac68fe-c56a-45dd-996b-7029d15937ba@weekly-market-events
+DTSTART;TZID=America/Chicago:20250818T090000
+DTEND;TZID=America/Chicago:20250818T093000
+SUMMARY:[High] Macro — NAHB Housing Market Index (Aug)
+CATEGORIES:Macro, Housing
+URL:https://www.nahb.org/news-and-economics/housing-economics/indices/nahb-wells-fargo-housing-market-index-release-dates
+DESCRIPTION:Category: Macro | Impact: 4 | Time: 9:00 AM CT | Why it matters: Early read on homebuilder sentiment \\nSource: NAHB schedule (10:00 a.m. ET release).
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:94917337-e9c9-4b85-9164-6df15b284f31@weekly-market-events
+DTSTART;TZID=America/Chicago:20250818T153000
+DTEND;TZID=America/Chicago:20250818T163000
+SUMMARY:[Med] Earnings — Palo Alto Networks (PANW) Q4 FY25 call
+CATEGORIES:Earnings, Technology
+URL:https://investors.paloaltonetworks.com/news-and-events/events-presentations
+DESCRIPTION:Category: Earnings | Impact: 3 | Time: 3:30 PM CT (after market) | Why it matters: Cybersecurity bellwether \\nSource: PANW IR events page.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b76cf26-99a3-47d5-9281-8bb8e4958448@weekly-market-events
+DTSTART;TZID=America/Chicago:20250819T073000
+DTEND;TZID=America/Chicago:20250819T080000
+SUMMARY:[High] Macro — Housing Starts & Building Permits (Jul)
+CATEGORIES:Macro, Housing
+URL:https://www.census.gov/construction/bps/schedule.html
+DESCRIPTION:Category: Macro | Impact: 4 | Time: 7:30 AM CT | Why it matters: Construction pipeline & supply \\nSource: Census BPS schedule.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a5439909-e6a3-42fc-8430-c79d82c25642@weekly-market-events
+DTSTART;TZID=America/Chicago:20250819T080000
+DTEND;TZID=America/Chicago:20250819T090000
+SUMMARY:[Med] Earnings — Home Depot (HD) Q2 FY25 call
+CATEGORIES:Earnings, Consumer
+URL:https://ir.homedepot.com/news-releases/2025/08-05-2025-130516891
+DESCRIPTION:Category: Earnings | Impact: 3 | Time: 8:00 AM CT | Why it matters: Consumer & housing proxy \\nSource: Home Depot IR release.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:da92d850-6216-4031-bc86-18d9eb24ac25@weekly-market-events
+DTSTART;TZID=America/Chicago:20250820T130000
+DTEND;TZID=America/Chicago:20250820T133000
+SUMMARY:[High] Fed — FOMC Minutes (Meeting of Jul 29–30)
+CATEGORIES:Fed
+URL:https://www.federalreserve.gov/newsevents/2025-august.htm
+DESCRIPTION:Category: Fed | Impact: 5 | Time: 1:00 PM CT | Why it matters: Policy path clues \\nSource: federalreserve.gov August calendar.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:56601c1f-fb36-4602-a0da-0f0c883c7621@weekly-market-events
+DTSTART;TZID=America/Chicago:20250820T120000
+DTEND;TZID=America/Chicago:20250820T123000
+SUMMARY:[Med] Treasury — 20-Year Bond Auction (results)
+CATEGORIES:Treasury
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf
+DESCRIPTION:Category: UST Auctions | Impact: 3 | Time: ~12:00 PM CT | Why it matters: Long-duration demand \\nSource: Treasury tentative auction schedule\; results just after 1:00 PM ET.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b7b34bfd-5b79-427e-a818-8383080e9fec@weekly-market-events
+DTSTART;TZID=America/Chicago:20250821T060000
+DTEND;TZID=America/Chicago:20250821T063000
+SUMMARY:[High] Earnings — Walmart (WMT) FY26 Q2 materials release
+CATEGORIES:Earnings, Consumer
+URL:https://corporate.walmart.com/news/events/fy2026-q2-earnings-release
+DESCRIPTION:Category: Earnings | Impact: 4 | Time: 6:00 AM CT | Why it matters: US consumer bellwether \\nSource: Walmart corporate events page.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:edb66377-82cf-4521-a51e-982a8278587d@weekly-market-events
+DTSTART;TZID=America/Chicago:20250821T070000
+DTEND;TZID=America/Chicago:20250821T080000
+SUMMARY:[High] Earnings — Walmart (WMT) FY26 Q2 call
+CATEGORIES:Earnings, Consumer
+URL:https://corporate.walmart.com/news/events/fy2026-q2-earnings-release
+DESCRIPTION:Category: Earnings | Impact: 4 | Time: 7:00 AM CT | Why it matters: Management outlook on consumer & margins \\nSource: Walmart corporate events page.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc056d53-c504-4d60-a705-d1dfde59743b@weekly-market-events
+DTSTART;TZID=America/Chicago:20250821T090000
+DTEND;TZID=America/Chicago:20250821T093000
+SUMMARY:[High] Macro — Existing Home Sales (Jul)
+CATEGORIES:Macro, Housing
+URL:https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales
+DESCRIPTION:Category: Macro | Impact: 4 | Time: 9:00 AM CT | Why it matters: Resale market health \\nSource: NAR release timing.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:03ba97ea-4e7d-4b91-8ffa-b9b2d0c17afb@weekly-market-events
+DTSTART;VALUE=DATE:20250821
+DTEND;VALUE=DATE:20250822
+SUMMARY:[High] Fed — Jackson Hole Economic Policy Symposium (Day 1)
+CATEGORIES:Fed, Conference
+URL:https://www.kansascityfed.org/research/jackson-hole-economic-symposium/
+DESCRIPTION:Category: Fed | Impact: 4 | Time: All-day | Source: Kansas City Fed — Aug 21–23\, 2025.
+END:VEVENT
+BEGIN:VEVENT
+UID:4ac15b6c-4bc5-463e-a301-01a673ea61cc@weekly-market-events
+DTSTART;TZID=America/Chicago:20250822T084500
+DTEND;TZID=America/Chicago:20250822T091500
+SUMMARY:[High] Macro — S&P Global US Flash PMIs (Aug)
+CATEGORIES:Macro, PMI
+URL:https://www.pmi.spglobal.com/Public/Release/ReleaseDates
+DESCRIPTION:Category: Macro | Impact: 4 | Time: 8:45 AM CT | Why it matters: Timely growth & inflation pulse \\nSource: S&P Global PMI release times.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:be03180a-328e-4d7e-8683-417bf6021340@weekly-market-events
+DTSTART;TZID=America/Chicago:20250822T090000
+DTEND;TZID=America/Chicago:20250822T094500
+SUMMARY:[High] Fed — Chair Powell speech at Jackson Hole
+CATEGORIES:Fed
+URL:https://www.federalreserve.gov/newsevents/calendar.htm
+DESCRIPTION:Category: Fed | Impact: 5 | Time: ~9:00 AM CT | Why it matters: Policy outlook signals \\nSource: Federal Reserve events calendar\; Jackson Hole page.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:513ce25a-373d-4a3d-83d9-e4f9a76493d9@weekly-market-events
+DTSTART;VALUE=DATE:20250822
+DTEND;VALUE=DATE:20250823
+SUMMARY:[High] Fed — Jackson Hole Economic Policy Symposium (Day 2)
+CATEGORIES:Fed, Conference
+URL:https://www.kansascityfed.org/research/jackson-hole-economic-symposium/
+DESCRIPTION:Category: Fed | Impact: 3 | Time: All-day | Source: Kansas City Fed — Aug 21–23\, 2025.
+END:VEVENT
+BEGIN:VEVENT
+UID:b5c2a1d9-dd2e-41cf-a795-cad8861fc908@weekly-market-events
+DTSTART;VALUE=DATE:20250823
+DTEND;VALUE=DATE:20250824
+SUMMARY:[Med] Fed — Jackson Hole Economic Policy Symposium (Day 3)
+CATEGORIES:Fed, Conference
+URL:https://www.kansascityfed.org/research/jackson-hole-economic-symposium/
+DESCRIPTION:Category: Fed | Impact: 3 | Time: All-day | Source: Kansas City Fed — Aug 21–23\, 2025.
+END:VEVENT
+END:VCALENDAR
