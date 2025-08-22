@@ -22,145 +22,158 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:macro-dallasfed-20250825@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250825T093000
 DTEND;TZID=America/Chicago:20250825T100000
-SUMMARY:Dallas Fed Manufacturing Index (Aug)
-DESCRIPTION:Category: Macro | Why it matters: Regional manufacturing pulse
+SUMMARY:[Med] Macro — Dallas Fed Manufacturing Index (Aug)
+DESCRIPTION:Category: Macro | Impact: 3 | Why it matters: Regional manufacturing pulse
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Dallas Fed Manufacturing Index (Aug)
+DESCRIPTION:Reminder — [Med] Macro — Dallas Fed Manufacturing Index (Aug)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:macro-caseshiller-20250826@market-events
+DTSTAMP:20250822T182505Z
+DTSTART;TZID=America/Chicago:20250826T080000
+DTEND;TZID=America/Chicago:20250826T083000
+SUMMARY:[Med] Macro — S&P CoreLogic Case‑Shiller HPI (Jun)
+DESCRIPTION:Category: Macro | Impact: 3 | Why it matters: Home price momentum
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Reminder — [Med] Macro — S&P CoreLogic Case‑Shiller HPI (Jun)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macro-consumerconfidence-20250826@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250826T090000
 DTEND;TZID=America/Chicago:20250826T093000
-SUMMARY:Conference Board Consumer Confidence (Aug)
-DESCRIPTION:Category: Macro | Why it matters: Consumer spending signal
+SUMMARY:[High] Macro — Conference Board Consumer Confidence (Aug)
+DESCRIPTION:Category: Macro | Impact: 4 | Why it matters: Consumer spending signal
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Conference Board Consumer Confidence (Aug)
+DESCRIPTION:Reminder — [High] Macro — Conference Board Consumer Confidence (Aug)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-2y-20250826@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250826T120000
 DTEND;TZID=America/Chicago:20250826T123000
-SUMMARY:Treasury — 2-Year Note Auction (results)
-DESCRIPTION:Category: Treasury | Why it matters: Front-end demand & rate expectations
+SUMMARY:[Med] Treasury — 2‑Year Note Auction (results)
+DESCRIPTION:Category: Treasury | Impact: 3 | Why it matters: Front‑end demand & rate expectations
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Treasury — 2-Year Note Auction (results)
+DESCRIPTION:Reminder — [Med] Treasury — 2‑Year Note Auction (results)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macro-durablegoods-20250827@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250827T073000
 DTEND;TZID=America/Chicago:20250827T080000
-SUMMARY:Durable Goods Orders (Jul)
-DESCRIPTION:Category: Macro | Why it matters: Capex & manufacturing outlook
+SUMMARY:[High] Macro — Durable Goods Orders (Jul)
+DESCRIPTION:Category: Macro | Impact: 4 | Why it matters: Capex & manufacturing outlook
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Durable Goods Orders (Jul)
+DESCRIPTION:Reminder — [High] Macro — Durable Goods Orders (Jul)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-5y-20250827@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250827T120000
 DTEND;TZID=America/Chicago:20250827T123000
-SUMMARY:Treasury — 5-Year Note Auction (results)
-DESCRIPTION:Category: Treasury | Why it matters: Belly demand & term premium
+SUMMARY:[Med] Treasury — 5‑Year Note Auction (results)
+DESCRIPTION:Category: Treasury | Impact: 3 | Why it matters: Belly demand & term premium
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Treasury — 5-Year Note Auction (results)
+DESCRIPTION:Reminder — [Med] Treasury — 5‑Year Note Auction (results)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macro-claims-20250828@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250828T073000
 DTEND;TZID=America/Chicago:20250828T080000
-SUMMARY:Initial Jobless Claims (Aug 23)
-DESCRIPTION:Category: Macro | Why it matters: Timely labor market read
+SUMMARY:[Med] Macro — Initial Jobless Claims (Aug 23)
+DESCRIPTION:Category: Macro | Impact: 3 | Why it matters: Timely labor market read
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Initial Jobless Claims (Aug 23)
+DESCRIPTION:Reminder — [Med] Macro — Initial Jobless Claims (Aug 23)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macro-gdp2nd-20250828@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250828T073000
 DTEND;TZID=America/Chicago:20250828T080000
-SUMMARY:GDP (Q2) — Second Estimate
-DESCRIPTION:Category: Macro | Why it matters: Growth momentum (2nd estimate)
+SUMMARY:[High] Macro — GDP (Q2) — Second Estimate
+DESCRIPTION:Category: Macro | Impact: 4 | Why it matters: Growth momentum (2nd estimate)
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — GDP (Q2) — Second Estimate
+DESCRIPTION:Reminder — [High] Macro — GDP (Q2) — Second Estimate
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-7y-20250828@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250828T120000
 DTEND;TZID=America/Chicago:20250828T123000
-SUMMARY:Treasury — 7-Year Note Auction (results)
-DESCRIPTION:Category: Treasury | Why it matters: Long belly demand
+SUMMARY:[Med] Treasury — 7‑Year Note Auction (results)
+DESCRIPTION:Category: Treasury | Impact: 3 | Why it matters: Long belly demand
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Treasury — 7-Year Note Auction (results)
+DESCRIPTION:Reminder — [Med] Treasury — 7‑Year Note Auction (results)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macro-pce-20250829@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250829T073000
 DTEND;TZID=America/Chicago:20250829T080000
-SUMMARY:Personal Income & Outlays (Jul) — incl. PCE/Core PCE
-DESCRIPTION:Category: Macro | Why it matters: Fed’s preferred inflation gauge
+SUMMARY:[High] Macro — Personal Income & Outlays (Jul) — incl. PCE/Core PCE
+DESCRIPTION:Category: Macro | Impact: 5 | Why it matters: Fed’s preferred inflation gauge
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Personal Income & Outlays (Jul) — incl. PCE/Core PCE
+DESCRIPTION:Reminder — [High] Macro — Personal Income & Outlays (Jul) — incl. PCE/Core PCE
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macro-chicago-pmi-20250829@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250829T084500
 DTEND;TZID=America/Chicago:20250829T091500
-SUMMARY:Chicago PMI (Aug)
-DESCRIPTION:Category: Macro | Why it matters: Regional manufacturing & demand
+SUMMARY:[Med] Macro — Chicago PMI (Aug)
+DESCRIPTION:Category: Macro | Impact: 3 | Why it matters: Regional manufacturing & demand
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — Chicago PMI (Aug)
+DESCRIPTION:Reminder — [Med] Macro — Chicago PMI (Aug)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macro-umich-final-20250829@market-events
-DTSTAMP:20250822T170254Z
+DTSTAMP:20250822T182505Z
 DTSTART;TZID=America/Chicago:20250829T090000
 DTEND;TZID=America/Chicago:20250829T093000
-SUMMARY:University of Michigan Sentiment (Aug, Final)
-DESCRIPTION:Category: Macro | Why it matters: Consumer expectations & inflation
+SUMMARY:[Med] Macro — University of Michigan Sentiment (Aug, Final)
+DESCRIPTION:Category: Macro | Impact: 3 | Why it matters: Consumer expectations & inflation
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Reminder — University of Michigan Sentiment (Aug, Final)
+DESCRIPTION:Reminder — [Med] Macro — University of Michigan Sentiment (Aug, Final)
 END:VALARM
 END:VEVENT
 END:VCALENDAR
